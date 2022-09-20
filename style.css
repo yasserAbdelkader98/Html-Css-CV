@@ -1,0 +1,54 @@
+body p{
+    font-size: 12px;
+}
+
+.container{
+    width: 750px;
+    height: 620px;
+    background-color: #aaa;
+    margin: 10px auto;
+}
+
+.parent{
+    margin: 5px auto;
+    width: 80%;
+    height: 100%;
+    background-color: #eee;
+}
+
+.child1{
+    width: 30%;
+    height: 100%;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.child2{
+    width: 55%;
+    height: 100%;
+    float: right;
+    padding-right: 10px;
+}
+hr{
+    background-color: darkblue;
+    height: 1px;
+}
+h2,h4{
+    color: darkblue;
+}
+h4{
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
+img{
+    border-radius: 50%;
+}
+h5, p{
+    margin: 0px;
+    padding:0px;
+}
+ul{
+    display: inline-block;
+    font-size: 12px;
+}
